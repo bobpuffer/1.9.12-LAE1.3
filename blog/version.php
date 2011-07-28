@@ -1,0 +1,10 @@
+<?php // $Id: version.php 68 2009-07-31 18:23:01Z dlandau $
+
+/////////////////////////////////////////////////////////////////////////////////
+///  Code fragment to define the version of the blog module
+///  This fragment is called by moodle_needs_upgrading() and /admin/index.php
+/////////////////////////////////////////////////////////////////////////////////
+
+$blog_version  = 2005030400;  // The current version of blog module (Date: YYYYMMDDXX)
+$module->cron     = 1800;           // Period for cron to check this module (secs)
+?>
